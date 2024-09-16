@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #003366; /* Fondo azul oscuro */
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cronometro {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #ADD8E6; /* Azul claro */
+    border-radius: 10px;
+    border: 4px solid #000080; /* Borde de 4px, azul oscuro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tablero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.tablero p {
+    color: #003366;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 400px;
+}
+
+.botones button {
+    padding: 10px 20px;
+    border: 2px solid rgba(160, 9, 202, 0.8);
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: rgba(160, 9, 202, 0.8);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botones button:hover {
+    background-color: rgba(160, 9, 202, 1);
+}

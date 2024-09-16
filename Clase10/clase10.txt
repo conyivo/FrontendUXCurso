@@ -1,0 +1,354 @@
+USUARIO@Conyivo-UXUI MINGW64 /
+$ cd C:\xampp\htdocs\ProyectosWeb\practicaalma\CursoFrontEndUX\Clase7
+bash: cd: C:xampphtdocsProyectosWebpracticaalmaCursoFrontEndUXClase7: No such file or directory
+
+USUARIO@Conyivo-UXUI MINGW64 /
+$ cd /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (master)
+$ git init
+Reinitialized existing Git repository in C:/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7/.git/
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (master)
+$ git add .
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (master)
+$ git commit -m "Primer commit - Subiendo los archivos del proyecto"
+[master (root-commit) 422c59c] Primer commit - Subiendo los archivos del proyecto
+ 4 files changed, 291 insertions(+)
+ create mode 100644 Ejercicio7.html
+ create mode 160000 FrontendUXCurso
+ create mode 100644 maria.webp
+ create mode 100644 style.css
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (master)
+$ git remote add origin https://github.com/conyivo/FrontendUXCurso.git
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/conyivo/FrontendUXCurso.git'
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 23.00 KiB | 7.67 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/conyivo/FrontendUXCurso/pull/new/master
+remote:
+To https://github.com/conyivo/FrontendUXCurso.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (master)
+$ git pull
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 864 bytes | 66.00 KiB/s, done.
+From https://github.com/conyivo/FrontendUXCurso
+ * [new branch]      main       -> origin/main
+Already up to date.
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (master)
+$ git push origin -u origin master
+error: src refspec origin does not match any
+error: failed to push some refs to 'https://github.com/conyivo/FrontendUXCurso.git'
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (master)
+$ git push -u origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (master)
+$ git branch -m master main
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git push -u origin main
+To https://github.com/conyivo/FrontendUXCurso.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/conyivo/FrontendUXCurso.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ ^C
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ bash
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git bahs
+git: 'bahs' is not a git command. See 'git --help'.
+
+The most similar command is
+        stash
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git bash
+git: 'bash' is not a git command. See 'git --help'.
+
+The most similar command is
+        stash
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git branch
+* main
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git add .
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git push -u origin main
+To https://github.com/conyivo/FrontendUXCurso.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/conyivo/FrontendUXCurso.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git pull origin main
+From https://github.com/conyivo/FrontendUXCurso
+ * branch            main       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git push -u origin main
+To https://github.com/conyivo/FrontendUXCurso.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/conyivo/FrontendUXCurso.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git push -u origin main --force
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/conyivo/FrontendUXCurso.git
+ + 267eac0...422c59c main -> main (forced update)
+branch 'main' set up to track 'origin/main'.
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git push origin --delete master
+To https://github.com/conyivo/FrontendUXCurso.git
+ - [deleted]         master
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git add style.css
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   style.css
+
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git log
+commit 422c59c5fa5c65baf1dbd97b7454862f38da896a (HEAD -> main, origin/main)
+Author: Cony Murcia <conymurciaortiz@gmail.com>
+Date:   Thu Aug 29 20:19:56 2024 -0500
+
+    Primer commit - Subiendo los archivos del proyecto
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git diff repo_remoto/master master
+fatal: ambiguous argument 'repo_remoto/master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git diff main origin/main
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git push
+Everything up-to-date
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git log
+commit 422c59c5fa5c65baf1dbd97b7454862f38da896a (HEAD -> main, origin/main)
+Author: Cony Murcia <conymurciaortiz@gmail.com>
+Date:   Thu Aug 29 20:19:56 2024 -0500
+
+    Primer commit - Subiendo los archivos del proyecto
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git commit -m "Se modifican estilos"
+[main 2244385] Se modifican estilos
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git log
+commit 2244385ab8bcdb9c7c9bac24cc1ad75edab252f5 (HEAD -> main)
+Author: Cony Murcia <conymurciaortiz@gmail.com>
+Date:   Thu Aug 29 20:59:42 2024 -0500
+
+    Se modifican estilos
+
+commit 422c59c5fa5c65baf1dbd97b7454862f38da896a (origin/main)
+Author: Cony Murcia <conymurciaortiz@gmail.com>
+Date:   Thu Aug 29 20:19:56 2024 -0500
+
+    Primer commit - Subiendo los archivos del proyecto
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git diff main origin/main
+diff --git a/style.css b/style.css
+index 45f5913..79ad615 100644
+--- a/style.css
++++ b/style.css
+@@ -7,7 +7,7 @@ body {
+ }
+
+ #encabezado {
+-    border: 0.5rem outset rgb(159, 228, 245);
++    border: 0.5rem outset rgb(192, 242, 255);
+     outline: 0.5rem solid rgb(140, 193, 240);
+     border-radius: 12px;
+     font-size: 2rem;
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 306 bytes | 306.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/conyivo/FrontendUXCurso.git
+   422c59c..2244385  main -> main
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git log
+commit 2244385ab8bcdb9c7c9bac24cc1ad75edab252f5 (HEAD -> main, origin/main)
+Author: Cony Murcia <conymurciaortiz@gmail.com>
+Date:   Thu Aug 29 20:59:42 2024 -0500
+
+    Se modifican estilos
+
+commit 422c59c5fa5c65baf1dbd97b7454862f38da896a
+Author: Cony Murcia <conymurciaortiz@gmail.com>
+Date:   Thu Aug 29 20:19:56 2024 -0500
+
+    Primer commit - Subiendo los archivos del proyecto
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Maria-Mercedes-Carranza.jpg
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git add .
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git commit - m "Se incluye imagen"
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'Se incluye imagen' did not match any file(s) known to git
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git commit -m "Se incluye imagen"
+[main 4f28a76] Se incluye imagen
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Maria-Mercedes-Carranza.jpg
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 169.58 KiB | 18.84 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/conyivo/FrontendUXCurso.git
+   2244385..4f28a76  main -> main
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git log
+commit 4f28a7668ea81fc8a6a8e5ae7be16ff0e2db23d6 (HEAD -> main, origin/main)
+Author: Cony Murcia <conymurciaortiz@gmail.com>
+Date:   Thu Aug 29 21:04:39 2024 -0500
+
+    Se incluye imagen
+
+commit 2244385ab8bcdb9c7c9bac24cc1ad75edab252f5
+Author: Cony Murcia <conymurciaortiz@gmail.com>
+Date:   Thu Aug 29 20:59:42 2024 -0500
+
+    Se modifican estilos
+
+commit 422c59c5fa5c65baf1dbd97b7454862f38da896a
+Author: Cony Murcia <conymurciaortiz@gmail.com>
+Date:   Thu Aug 29 20:19:56 2024 -0500
+
+    Primer commit - Subiendo los archivos del proyecto
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ $ git reset --hard HEAD~2
+bash: $: command not found
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$  git reset --hard HEAD~2
+HEAD is now at 422c59c Primer commit - Subiendo los archivos del proyecto
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git push -f origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/conyivo/FrontendUXCurso.git'
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git push -f origin main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/conyivo/FrontendUXCurso.git
+ + 4f28a76...422c59c main -> main (forced update)
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$ git log
+commit 422c59c5fa5c65baf1dbd97b7454862f38da896a (HEAD -> main, origin/main)
+Author: Cony Murcia <conymurciaortiz@gmail.com>
+Date:   Thu Aug 29 20:19:56 2024 -0500
+
+    Primer commit - Subiendo los archivos del proyecto
+
+USUARIO@Conyivo-UXUI MINGW64 /c/xampp/htdocs/ProyectosWeb/practicaalma/CursoFrontEndUX/Clase7 (main)
+$
